@@ -37,12 +37,20 @@ public class Main {
 
                 case 3 -> {
                     System.out.println("\n---------Ejemplo de Herencia---------");
+                    System.out.println("Para tratar el tema de herencias, vamos a usar la clase del ejemplo de Abstraccion.");
+                    Herencia vehiculo = new Herencia("Auto","Mazda X-5",2014,"PBX2345",
+                            2, 15000, "Bryan Raul", 12500, 123.450);
 
+                    vehiculo.imprimir_Datos();
                 }
 
                 case 4 -> {
                     System.out.println("\n---------Ejemplo de Polimorfismo---------");
+                    System.out.println("Como polimorfirsmo usaremos el mismo ejemplo de la clase de Herencia");
+                    Herencia vehiculo = new Herencia("Auto","Mazda X-5",2014,"PBX2345",
+                            2, 15000, "Bryan Raul", 12500, 123.450);
 
+                    vehiculo.imprimir_Datos();
                 }
 
             default -> System.out.println("\nNo se encuentra la opcion en el programa! Reinicie por favor");
